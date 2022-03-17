@@ -1,0 +1,26 @@
+html {
+      height: 100%;
+}
+
+body {
+      margin: 0;
+      height: 100%;
+}
+
+#app {
+      height: 100%;
+}
+
+/* @font-face {
+      font-family: 'TH SarabunIT๙';
+      font-style: normal;
+      font-weight: normal;
+      src: local('TH SarabunIT๙'), url('./fonts/THSarabunIT๙.ttf') format('truetype');
+}
+
+@font-face {
+      font-family: 'TH SarabunPSK';
+      font-style: normal;
+      font-weight: normal;
+      src: local('TH SarabunPSK'), url('./fonts/THSarabun.ttf') format('truetype');
+} */

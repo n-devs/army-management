@@ -1,0 +1,324 @@
+{
+  "employees": [],
+  "account-number": [],
+  "banks": [],
+  "status": [],
+  "jobs": [],
+  "historys": [],
+  "office_type": [
+    {
+      "id": "0",
+      "headerName": "ร้อย.บก"
+    }
+  ],
+  "rank_type": [
+    {
+      "id": "0",
+      "headerName": "พลฯ"
+    }
+  ],
+  "affiliation_type": [
+    {
+      "id": "0",
+      "headerName": "พัน.ร.มทบ.11"
+    }
+  ],
+  "nationality_type": [
+    {
+      "id": "0",
+      "headerName": "ไทย"
+    }
+  ],
+  "religion_type": [
+    {
+      "id": "0",
+      "headerName": "-"
+    },
+    {
+      "id": "1",
+      "headerName": "พุทธ"
+    },
+    {
+      "id": "2",
+      "headerName": "คลิส"
+    },
+    {
+      "id": "3",
+      "headerName": "อิสราม"
+    },
+    {
+      "id": "4",
+      "headerName": "ฮินดู"
+    }
+  ],
+  "blood_type": [
+    {
+      "id": "0",
+      "headerName": "-"
+    },
+    {
+      "id": "1",
+      "headerName": "A"
+    },
+    {
+      "id": "2",
+      "headerName": "B"
+    },
+    {
+      "id": "3",
+      "headerName": "AB"
+    },
+    {
+      "id": "4",
+      "headerName": "O"
+    }
+  ],
+  "person_status_type": [
+    {
+      "id": "0",
+      "headerName": "-"
+    },
+    {
+      "id": "1",
+      "headerName": "โสด"
+    },
+    {
+      "id": "2",
+      "headerName": "อย่าร้าง"
+    },
+    {
+      "id": "3",
+      "headerName": "สมรส"
+    }
+  ],
+  "period_of_service_type": [
+    {
+      "id": "0",
+      "headerName": "6 เดือน"
+    },
+    {
+      "id": "1",
+      "headerName": "1 ปี"
+    },
+    {
+      "id": "2",
+      "headerName": "2 ปี"
+    },
+    {
+      "id": "3",
+      "headerName": "3 ปี"
+    },
+    {
+      "id": "4",
+      "headerName": "4 ปี"
+    },
+    {
+      "id": "5",
+      "headerName": "5 ปี"
+    }
+  ],
+  "how_to_submit_a_request_type": [
+    {
+      "id": "0",
+      "headerName": "ไม่ร้องขอ"
+    },
+    {
+      "id": "1",
+      "headerName": "ร้องขอ"
+    }
+  ],
+  "person_who_can_be_contacted_relationship_type": [
+    {
+      "id": "0",
+      "headerName": "-"
+    },
+    {
+      "id": "1",
+      "headerName": "บิดา"
+    },
+    {
+      "id": "2",
+      "headerName": "มารดา"
+    },
+    {
+      "id": "3",
+      "headerName": "ญาติ"
+    },
+    {
+      "id": "4",
+      "headerName": "เพื่อนสนิด"
+    },
+    {
+      "id": "5",
+      "headerName": "แฟน"
+    }
+  ],
+  "father_life_status_type": [
+    {
+      "id": "0",
+      "headerName": "ถึงแก่กรรม"
+    },
+    {
+      "id": "1",
+      "headerName": "มีชีวิต"
+    }
+  ],
+  "father_status_type": [
+    {
+      "id": "0",
+      "headerName": "-"
+    },
+    {
+      "id": "1",
+      "headerName": "โสด"
+    },
+    {
+      "id": "2",
+      "headerName": "อย่าร้าง"
+    },
+    {
+      "id": "3",
+      "headerName": "สมรส"
+    }
+  ],
+  "mother_life_status_type": [
+    {
+      "id": "0",
+      "headerName": "ถึงแก่กรรม"
+    },
+    {
+      "id": "1",
+      "headerName": "มีชีวิต"
+    }
+  ],
+  "mother_status_type": [
+    {
+      "id": "0",
+      "headerName": "-"
+    },
+    {
+      "id": "1",
+      "headerName": "โสด"
+    },
+    {
+      "id": "2",
+      "headerName": "อย่าร้าง"
+    },
+    {
+      "id": "3",
+      "headerName": "สมรส"
+    }
+  ],
+  "employees_field": [
+    {
+      "field": "number",
+      "headerName": "ลำดับ",
+      "description": "ลำดับของพลทหาร"
+    },
+    {
+      "field": "image",
+      "headerName": "รูปถ่าย",
+      "description": "รูปถ่ายของพลทหาร"
+    },
+    {
+      "field": "id",
+      "headerName": "รหัสทหาร",
+      "description": "หมายเลขสิบหลักของพลทหาร"
+    },
+    {
+      "field": "id_number",
+      "headerName": "เลขประจำตัวประชาชน",
+      "description": "หมายเลขประจำตัวประชาชนของพลทหาร"
+    },
+    {
+      "field": "rank_type",
+      "headerName": "ยศ",
+      "description": "ยศหรือตำแหน่งของพลทหาร"
+    },
+    {
+      "field": "firstName",
+      "headerName": "ชื่อ",
+      "description": "ชื่อของพลทหาร"
+    },
+    {
+      "field": "lastName",
+      "headerName": "นามสกุล",
+      "description": "นามสกุลของพลทหาร"
+    },
+    {
+      "field": "nickName",
+      "headerName": "ชื่อเล่น",
+      "description": "ชื่อเล่นของพลทหาร"
+    },
+    {
+      "field": "turns",
+      "headerName": "ผลัดที่",
+      "description": "ผลัดของพลทหาร"
+    },
+    {
+      "field": "period_of_service_type",
+      "headerName": "ระยะเวลารับราชการ",
+      "description": "ระยะเวลารับราชการของพลทหาร"
+    },
+    {
+      "field": "how_to_submit_a_request_type",
+      "headerName": "การยื้นร้องขอ",
+      "description": "การยื้นร้องขอของพลทหาร"
+    },
+    {
+      "field": "entered_service_on",
+      "headerName": "เข้าประจำการเมื่อวันที่",
+      "description": "พลทหารเข้าประจำการเมื่อวันที่"
+    },
+    {
+      "field": "affiliation_type",
+      "headerName": "สังกัด",
+      "description": "สังกัดของพลทหาร"
+    },
+    {
+      "field": "phone",
+      "headerName": "เบอร์โทรศัพท์",
+      "description": "เบอร์โทรศัพท์ของพลทหาร"
+    },
+    {
+      "field": "birthday",
+      "headerName": "วัน เดือน ปีเกิด",
+      "description": "วัน เดือน ปีเกิดของพลทหาร"
+    },
+    {
+      "field": "nationality_type",
+      "headerName": "สัญชาติ",
+      "description": "สัญชาติของพลทหาร"
+    },
+    {
+      "field": "religion_type",
+      "headerName": "ศาสนา",
+      "description": "ศาสนาของพลทหาร"
+    },
+    {
+      "field": "person_status_type",
+      "headerName": "สถานภาพ",
+      "description": "สถานภาพของพลทหาร"
+    },
+    {
+      "field": "blood_type",
+      "headerName": "หมู่โลหิต",
+      "description": "หมู่โลหิตของพลทหาร"
+    },
+    {
+      "field": "height",
+      "headerName": "ส่วนสูง",
+      "description": "ส่วนสูงของพลทหาร"
+    },
+    {
+      "field": "weight",
+      "headerName": "น้ำหนัก",
+      "description": "น้ำหนักของพลทหาร"
+    },
+    {
+      "field": "bust_size",
+      "headerName": "รอบอก",
+      "description": "รอบอกของพลทหาร"
+    }
+  ]
+}

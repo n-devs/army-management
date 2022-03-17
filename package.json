@@ -1,0 +1,144 @@
+{
+  "name": "army-management",
+  "version": "1.0.0",
+  "description": "An Electron application with React and Node",
+  "main": "./main.js",
+  "homepage": "./",
+  "scripts": {
+    "start": "concurrently \"npm run react-dev\" \"npm run server-start\" \"wait-on http://localhost:3000 && npm run electron-dev\"",
+    "start-dev": "concurrently \"npm run react-dev\" \"npm run server-start\"",
+    "react-build": "react-app-rewired build",
+    "react-start": "BROWSER=none react-app-rewired start",
+    "react-dev": "react-app-rewired start",
+    "server-build": "babel server --out-dir build-server",
+    "server-start": "nodemon --watch server --exec babel-node server/server.js",
+    "electron-dev": "node scripts/dev.js scripts/start.js",
+    "electron-pack": "electron-builder -c.extraMetadata.main='./main.js'",
+    "preelectron-pack": "npm run react-build && npm run server-build"
+  },
+  "author": "tbuyse",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.4",
+    "concurrently": "^4.1.0",
+    "customize-cra": "^0.2.12",
+    "electron": "^5.0.2",
+    "electron-builder": "^20.41.0",
+    "react-app-rewired": "^2.1.3",
+    "react-scripts": "3.0.1",
+    "wait-on": "^3.2.0"
+  },
+  "dependencies": {
+    "@babel/helper-define-map": "^7.16.7",
+    "@babel/plugin-proposal-decorators": "^7.17.2",
+    "@date-io/date-fns": "^2.13.1",
+    "@date-io/moment": "^2.13.1",
+    "@emotion/react": "^11.8.1",
+    "@emotion/styled": "^11.8.1",
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/pickers": "^3.3.10",
+    "@monaco-editor/react": "^4.3.1",
+    "@mui/icons-material": "^5.4.4",
+    "@mui/lab": "^5.0.0-alpha.71",
+    "@mui/material": "^5.4.4",
+    "@mui/styles": "^5.4.4",
+    "@mui/x-data-grid-generator": "^5.6.0",
+    "@mui/x-data-grid-pro": "^5.6.0",
+    "@progress/kendo-drawing": "^1.16.3",
+    "@progress/kendo-licensing": "^1.2.2",
+    "@progress/kendo-react-pdf": "^5.1.0",
+    "@syncfusion/ej2": "19.4.55",
+    "@syncfusion/ej2-react-barcode-generator": "19.4.52",
+    "@syncfusion/ej2-react-base": "19.4.55",
+    "@syncfusion/ej2-react-buttons": "19.4.55",
+    "@syncfusion/ej2-react-calendars": "19.4.55",
+    "@syncfusion/ej2-react-charts": "19.4.54",
+    "@syncfusion/ej2-react-circulargauge": "19.4.52",
+    "@syncfusion/ej2-react-diagrams": "19.4.55",
+    "@syncfusion/ej2-react-documenteditor": "19.4.55",
+    "@syncfusion/ej2-react-dropdowns": "19.4.55",
+    "@syncfusion/ej2-react-filemanager": "19.4.52",
+    "@syncfusion/ej2-react-gantt": "19.4.55",
+    "@syncfusion/ej2-react-grids": "19.4.55",
+    "@syncfusion/ej2-react-heatmap": "19.4.52",
+    "@syncfusion/ej2-react-inplace-editor": "19.4.52",
+    "@syncfusion/ej2-react-inputs": "19.4.52",
+    "@syncfusion/ej2-react-kanban": "19.4.52",
+    "@syncfusion/ej2-react-layouts": "19.4.52",
+    "@syncfusion/ej2-react-lineargauge": "19.4.52",
+    "@syncfusion/ej2-react-lists": "19.4.55",
+    "@syncfusion/ej2-react-maps": "19.4.55",
+    "@syncfusion/ej2-react-navigations": "19.4.55",
+    "@syncfusion/ej2-react-notifications": "19.4.52",
+    "@syncfusion/ej2-react-pdfviewer": "19.4.55",
+    "@syncfusion/ej2-react-pivotview": "19.4.55",
+    "@syncfusion/ej2-react-popups": "19.4.53",
+    "@syncfusion/ej2-react-progressbar": "19.4.55",
+    "@syncfusion/ej2-react-querybuilder": "19.4.55",
+    "@syncfusion/ej2-react-richtexteditor": "19.4.55",
+    "@syncfusion/ej2-react-schedule": "19.4.55",
+    "@syncfusion/ej2-react-splitbuttons": "19.4.52",
+    "@syncfusion/ej2-react-spreadsheet": "19.4.55",
+    "@syncfusion/ej2-react-treegrid": "19.4.55",
+    "@syncfusion/ej2-react-treemap": "19.4.52",
+    "app-module-path": "^2.2.0",
+    "axios": "^0.18.0",
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "date-fns": "^2.28.0",
+    "dayjs": "^1.11.0",
+    "electron-is-dev": "^1.1.0",
+    "express": "^4.17.1",
+    "html2canvas": "^1.4.1",
+    "json-server": "^0.17.0",
+    "jspdf": "^2.5.1",
+    "luxon": "^2.3.1",
+    "material-ui-thai-datepickers": "^1.1.7",
+    "moment": "^2.29.1",
+    "monaco-editor": "^0.33.0",
+    "nodemon": "^1.19.1",
+    "piping": "^1.0.0-rc.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^6.2.2"
+  },
+  "build": {
+    "appId": "com.army-management",
+    "productName": "ArmManagement",
+    "mac": {
+      "target": [
+        "zip",
+        "dmg"
+      ],
+      "category": "your.app.category.type",
+      "icon": "public/icon.icns"
+    },
+    "dmg": {
+      "icon": "public/icon.icns"
+    },
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb"
+      ]
+    },
+    "win": {
+      "target": [
+        "NSIS"
+      ],
+      "icon": "public/favicon.ico"
+    },
+    "files": [
+      "build/**/**/*",
+      "build-server/**/**/*",
+      "node_modules/**/*",
+      "./main.js"
+    ],
+    "directories": {
+      "buildResources": "assets"
+    }
+  },
+  "browserslist": []
+}
