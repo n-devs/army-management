@@ -8,6 +8,7 @@
     "start": "concurrently \"npm run react-dev\" \"npm run server-start\" \"wait-on http://localhost:3000 && npm run electron-dev\"",
     "start-dev": "concurrently \"npm run react-dev\" \"npm run server-start\"",
     "react-build": "react-app-rewired build",
+    "eject": "react-scripts eject",
     "react-start": "BROWSER=none react-app-rewired start",
     "react-dev": "react-app-rewired start",
     "server-build": "babel server --out-dir build-server",

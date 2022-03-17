@@ -493,6 +493,7 @@ export default function PersonHistoryRemove(props) {
                   console.log(err);
                   setData({ ...data })
             })
+      // eslint-disable-next-line react-hooks/exhaustive-deps
       }, [])
 
       return (

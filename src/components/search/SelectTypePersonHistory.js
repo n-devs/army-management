@@ -14,6 +14,7 @@ export default function SelectTypePersonHistory(props) {
             api.get("/api/employees_field").then((res) => {
                   // console.log(res.data.length);
                   const newData = []
+                  // eslint-disable-next-line array-callback-return
                   res.data.map((val, key, arr) => {
 
                         if (key > 1) {
